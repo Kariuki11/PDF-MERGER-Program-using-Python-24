@@ -1,15 +1,15 @@
-import PyPDF2
-import sys
-import os
+# import PyPDF2
+# import sys
+# import os
 
-merger = PyPDF2.PdfFileMerger()
+# merger = PyPDF2.PdfFileMerger()
 
-pdf_folder = r'C:\Users\Administrator\Desktop\PDF MERGER\pdf folders'
+# pdf_folder = r'C:\Users\Administrator\Desktop\PDF MERGER\pdf folders'
 
-for file in os.listdir(os.curdir):
-    if file.endswith(".pdf"):
-        merger.append(file)
-    merger.write("combinedBSUniDocs.pdf")
+# for file in os.listdir(os.curdir):
+#     if file.endswith(".pdf"):
+#         merger.append(file)
+#     merger.write("combinedBSUniDocs.pdf")
 
 # import PyPDF2
 # import os
