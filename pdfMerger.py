@@ -16,7 +16,7 @@ import os
 merger = PyPDF2.PdfFileMerger()
 
 # Specify the folder containing the PDF files
-pdf_folder = 'path/to/your/folder'  # Replace with the actual folder path
+pdf_folder = 'C:\Users\Administrator\Desktop\PDF MERGER\pdf folders'  # Replace with the actual folder path
 
 # List of specific PDF files to merge
 pdf_files = [
